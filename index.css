@@ -203,8 +203,34 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 50%;
+    padding: 2%;
+}
+.aboutText {
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
 }
 .strategy div {
     display: flex;
     flex-direction: column;
+    margin: 1% auto 2% auto;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+.strategy h2 {
+    margin-top: 3%;
+}
+.strategy p {
+    margin: 2% 0 1% 0;
+    padding-bottom: 3%;
+}
+.learn-more {
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 15px;
+    padding: 2%;
+}
+.work-together {
+    margin: 5% auto;
 }
